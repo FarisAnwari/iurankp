@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Card</title>
+  <!-- Load Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Load Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container mt-4">
+    <div class="card-detail">
+      <div class="card-body">
+        <h5 class="card-title">Data</h5>
+        <!-- Informasi Pekerjaan -->
+        <form id="jobForm">
+          <div class="form-group">
+            <label for="namaUnit">Nama Unit:</label>
+            <input type="text" class="form-control" id="namaUnit" name="namaUnit" value="Teknik Kimia">
+          </div>
+          <div class="form-group">
+            <label for="namaPekerjaan">Nama Pekerjaan:</label>
+            <input type="text" class="form-control" id="namaPekerjaan" name="namaPekerjaan" value="Pengadaan Laboratorium">
+          </div>
+          <!-- ...tambahkan input fields lainnya sesuai kebutuhan... -->
+  
+          <!-- File Info -->
+          <div class="file-info mt-3">
+            <h6 class="card-subtitle mb-2 text-muted">File Info</h6>
+            <div class="form-group">
+              <label for="fileKAK">Kerangka kerja acuan:</label>
+              <input type="file" class="form-control-file" id="fileKAK" name="fileKAK" accept=".pdf">
+            </div>
+            <!-- ...Tambahkan item file lainnya di sini... -->
+          </div>
+  
+          <button type="submit" class="btn btn-primary mt-3">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+<!-- Batas  -->
+<div class="container mt-4">
+  <div class="card-detail">
+    <div class="card-body">
+      <h5 class="card-title">Data</h5>
+      <!-- Informasi Pekerjaan -->
+      <form id="jobForm">
+        <div class="form-group">
+          <label for="namaUnit">Nama Unit:</label>
+          <input type="text" class="form-control" id="namaUnit" name="namaUnit" value="Teknik Kimia" readonly>
+        </div>
+        <div class="form-group">
+          <label for="namaPekerjaan">Nama Pekerjaan:</label>
+          <input type="text" class="form-control" id="namaPekerjaan" name="namaPekerjaan" value="Pengadaan Laboratorium" readonly>
+        </div>
+        <!-- ...tambahkan input fields lainnya sesuai kebutuhan... -->
+
+        <!-- File Info -->
+        <div class="file-info mt-3">
+          <h6 class="card-subtitle mb-2 text-muted">File Info</h6>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Kerangka kerja acuan: <a href="file/KAK.pdf" target="_blank">KAK.pdf</a></li>
+            <li class="list-group-item">Harga Perkiraan Sendiri: <a href="file/HPS.pdf" target="_blank">HPS.pdf</a></li>
+            <!-- ...Tambahkan informasi file lainnya di sini... -->
+          </ul>
+        </div>
+
+
+        <div class="container mt-4">
+          <div class="card-detail">
+            <div class="card-body">
+              <h5 class="card-title">Data</h5>
+              <!-- Informasi Pekerjaan -->
+              <form id="jobForm">
+                <!-- ...form inputs... -->
+                <!-- File Info -->
+                <div class="file-info mt-3">
+                  <h6 class="card-subtitle mb-2 text-muted">File Info</h6>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Kerangka kerja acuan: <a href="file/KAK.pdf" target="_blank">KAK.pdf</a></li>
+                        <li class="list-group-item">Harga Perkiraan Sendiri: <a href="file/HPS.pdf" target="_blank">HPS.pdf</a></li>
+                        <li class="list-group-item">Spesifik Teknis: <a href="file/SpesifikTerkis.pdf" target="_blank">SpesifikTerkis.pdf</a></li>
+                        <!-- ...tambahkan link file untuk kolom pertama... -->
+                      </ul>
+                    </div>
+                    <div class="col-md-6">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Rancangan kontrak: <a href="file/RancanganKontrak.pdf" target="_blank">RancanganKontrak.pdf</a></li>
+                        <li class="list-group-item">Dokumen Persyaratan Penyedia Pengadaan: <a href="file/DokumenPersyaratan.pdf" target="_blank">DokumenPersyaratan.pdf</a></li>
+                        <li class="list-group-item">Dokumen persyaratan proses pemilihan: <a href="file/DokumenProsesPemilihan.pdf" target="_blank">DokumenProsesPemilihan.pdf</a></li>
+                        <!-- ...tambahkan link file untuk kolom kedua... -->
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- ...form submit button... -->
+              </form>
+            </div>
+          </div>
+        </div>
+        
+
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+  
+  
+  <!-- Load Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
