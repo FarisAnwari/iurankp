@@ -5,7 +5,7 @@
       <slot></slot>
     </div>
   </div> -->
-  <div class="card m-3 rounded-5">
+  <div class="shadow card border-primary m-3 rounded-5">
     <div class="card-header" style="background-color: #ffffff;">
       <div class="card-title text-left">{{ title }}</div>
       <div class="card-tools">
